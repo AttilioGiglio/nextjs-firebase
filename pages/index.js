@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Inicio</h1>
+    <h1>hello world</h1>
   </div>
 )
 
