@@ -1,6 +1,6 @@
 import React from 'react';
-import Head from 'next/head';
 import styled from '@emotion/styled';
+import Layout from '../components/layout'
 
 const Heading = styled.h1`
   color:red;
@@ -8,7 +8,9 @@ const Heading = styled.h1`
 
 const Home = () => (
   <div>
-    <h1>hello world</h1>
+  <Layout>
+    <h1>Inicio</h1>
+    </Layout>
   </div>
 )
 
